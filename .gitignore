@@ -24,6 +24,9 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Configurações de agente / MCP (não versionar)
+opencode.json
+
 # Cobertura de testes (se adicionar futuramente)
 coverage/
 .nyc_output/

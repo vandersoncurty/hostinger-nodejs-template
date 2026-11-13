@@ -1,7 +1,7 @@
 {
   "name": "hostinger-nodejs-template",
   "version": "1.0.0",
-  "description": "Esqueleto de aplicação Node.js com Express, pronta para deploy na Hostinger",
+  "description": "Esqueleto de aplicação Node.js com Express + MySQL, pronta para deploy na Hostinger",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql2": "^3.24.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
